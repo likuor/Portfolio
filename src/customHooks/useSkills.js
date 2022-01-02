@@ -5,12 +5,12 @@ import {
   initialState,
   actionTypes,
 } from '../reducers/skillReducer';
+import { requestStates } from '../constants';
 
 export const useSkills = () => {
   const [state, dispatch] = useReducer(skillReducer, initialState);
 
-  useEffect(() => {
-    dispatch({ type: actionTypes.fetch });
+  const fetchReposApi = () => {
     axios
       .get('https://api.github.com/users/likuor/repos')
       .then((response) => {
@@ -24,6 +24,17 @@ export const useSkills = () => {
       .catch(() => {
         dispatch({ type: actionTypes.error });
       });
+  };
+
+  useEffect(() => {
+    if (state.requestState !== requestStates.loading) {
+      return;
+    }
+    fetchReposApi();
+  }, [state.requestState]);
+
+  useEffect(() => {
+    dispatch({ type: actionTypes.fetch });
   }, []);
 
   const generateLanguageCountObj = (allLanguageList) => {
@@ -40,11 +51,14 @@ export const useSkills = () => {
     });
   };
 
-  const converseCountToPercentage = (count) => {
-    if (count > 10) {
-      return 100;
+  const DEFFAULT_MAX_PERCENTAGE = 100;
+  const LANGUAGE_COUNT_BASE = 10;
+
+  const converseCountToPercentage = (languageCount) => {
+    if (languageCount > LANGUAGE_COUNT_BASE) {
+      return DEFFAULT_MAX_PERCENTAGE;
     }
-    return count * 10;
+    return languageCount * LANGUAGE_COUNT_BASE;
   };
 
   const sortedLanguageList = () =>
