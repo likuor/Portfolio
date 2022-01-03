@@ -1,40 +1,34 @@
-import CoverImage from '../images/coverImage.jpg';
-import ProfileImage from '../images/profileImage.jpg';
 import { FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 export const Header = () => {
   return (
-    <header
-      className='main-cover'
-      style={{ backgroundImage: `url(${CoverImage})` }}
-    >
-      <div className='overlay'></div>
-      <div className='container'>
-        <div className='display-table'>
-          <div className='display-table-contents'>
-            <div
-              className='profile-thumb'
-              style={{ backgroundImage: `url(${ProfileImage})` }}
-            ></div>
-            <h1 className='title-text'>Koki</h1>
-            <h3 className='title-text'>Web Developer</h3>
-            <ul className='social-icons'>
-              <li className='icon-link'>
-                <a href='https://www.instagram.com/le_pereza'>
-                  <FaInstagram color='white' size='2rem' />
-                </a>
-              </li>
-              <li className='icon-link'>
-                <a href='https://www.facebook.com/sakai.kouki.1'>
-                  <FaFacebook color='white' size='2rem' />
-                </a>
+    <header>
+      <div className='whole-wrapper'>
+        <div className='introduce-wrapper'>
+          <h1 className='intro-title'>Hi, I'm Koki Sakai</h1>
+          <h1 className='intro-title'>Web developer</h1>
+        </div>
+        <div className='container'>
+          <div className='display-table'>
+            <div className='display-table-contents'>
+              <ul className='social-icons'>
                 <li className='icon-link'>
-                  <a href='https://github.com/likuor'>
-                    <FaGithub color='white' size='2rem' />
+                  <a href='https://www.instagram.com/le_pereza'>
+                    <FaInstagram color='black' size='2rem' />
                   </a>
                 </li>
-              </li>
-            </ul>
+                <li className='icon-link'>
+                  <a href='https://www.facebook.com/sakai.kouki.1'>
+                    <FaFacebook color='black' size='2rem' />
+                  </a>
+                </li>
+                <li className='icon-link'>
+                  <a href='https://github.com/likuor'>
+                    <FaGithub color='black' size='2rem' />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
