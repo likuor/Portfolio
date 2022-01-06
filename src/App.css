@@ -1,3 +1,7 @@
+header {
+  background-color: darkseagreen;
+}
+
 body {
   font-family: Arial, serif;
   font-weight: 400;
@@ -43,6 +47,27 @@ h3 {
 }
 
 /* icons */
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: cadetblue;
+}
+
+.display-table-contents {
+  padding: 128px 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.display-table {
+  width: 100%;
+  height: 100vh;
+  display: table;
+}
 .social-icons {
   margin: 0;
   padding: 0;
@@ -60,27 +85,6 @@ h3 {
   color: #30bfba;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.container {
-  width: 1170px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.display-table {
-  width: 100%;
-  height: 100vh;
-  display: table;
-}
-
-.display-table-contents {
-  padding: 128px 0;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .icon-link {
