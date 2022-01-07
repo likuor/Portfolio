@@ -1,12 +1,8 @@
 import React from 'react';
+import { Introduce } from './Introduce';
 
 const Home = () => {
-  return (
-    <div>
-      <h1>About</h1>
-      <h2>I am </h2>
-    </div>
-  );
+  return <Introduce />;
 };
 
 export default Home;
