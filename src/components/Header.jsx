@@ -2,7 +2,7 @@ export const Header = () => {
   return (
     <header>
       <div className='whole-wrapper'>
-        <div>Koki Sakai</div>
+        <h1>Koki Sakai</h1>
       </div>
     </header>
   );
