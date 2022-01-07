@@ -127,3 +127,10 @@ nav {
   background: #fff;
   color: #5db1a1;
 }
+
+/* footer */
+h6 {
+  font-size: 12px;
+  text-align: center;
+  font-weight: lighter;
+}
