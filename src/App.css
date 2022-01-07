@@ -21,10 +21,6 @@ h3 {
   font-size: 16px;
 }
 
-nav {
-  background-color: darkturquoise;
-}
-
 footer {
   margin: 50px;
 }
@@ -32,6 +28,27 @@ footer {
 .whole-wrapper {
   padding: 10px;
   width: auto;
+}
+
+/* NavBar */
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  padding: 0px 10px;
+}
+
+li a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #30bfba;
 }
 
 /* Introduce */
@@ -57,7 +74,6 @@ footer {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: cadetblue;
 }
 
 .display-table-contents {
@@ -96,12 +112,12 @@ footer {
 
 /* contact */
 #contact {
-  padding: 128px 0;
+  padding: 40px 0;
   clear: both;
 }
 
 .contact {
-  background: #f0d24f;
+  background: #5db1a1;
 }
 
 .contact-contents {
