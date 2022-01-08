@@ -59,7 +59,6 @@ li a:hover {
   flex-direction: column;
   height: 100vh;
   padding: 74px 10px 0 10px;
-  justify-content: start;
 }
 
 .intro-title {
