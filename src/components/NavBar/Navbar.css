@@ -1,0 +1,18 @@
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  padding: 0px 10px;
+}
+
+li a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #30bfba;
+}

@@ -22,33 +22,12 @@ h3 {
 }
 
 footer {
-  margin: 50px;
+  margin-bottom: 60px;
 }
 
 .whole-wrapper {
   padding: 10px;
   width: auto;
-}
-
-/* NavBar */
-
-li {
-  list-style: none;
-  display: inline-block;
-}
-
-li a {
-  padding: 0px 10px;
-}
-
-li a,
-a:visited {
-  color: inherit;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: #30bfba;
 }
 
 /* Introduce */
@@ -64,82 +43,6 @@ li a:hover {
 .intro-title {
   font-weight: bold;
   position: relative;
-}
-
-/* SocialMedias */
-.container {
-  width: auto;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 15px 0 15px;
-}
-
-.display-table-contents {
-  padding: 10px 0;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.display-table {
-  width: 100%;
-  display: table;
-}
-.social-icons {
-  margin: 0;
-  padding: 0;
-}
-
-.social-icons li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: inline-block;
-}
-
-.social-icons li a {
-  display: inline-block;
-  color: #30bfba;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-.icon-link {
-  position: relative;
-}
-
-/* contact */
-#contact {
-  padding: 40px 0;
-  clear: both;
-}
-
-.contact {
-  background: #5db1a1;
-}
-
-.contact-contents {
-  color: white;
-  text-align: center;
-}
-
-.description {
-  font-size: 16px;
-}
-
-.btn {
-  font-family: 'Space Mono', Arial, serif;
-  font-size: 16px;
-  border: none !important;
-  border-radius: 30px;
-  padding: 16px 64px;
-  text-decoration: none;
-}
-
-#contact .btn {
-  height: 54px;
-  background: #fff;
-  color: #5db1a1;
 }
 
 /* footer */

@@ -1,0 +1,40 @@
+.container {
+  width: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px 0 15px;
+}
+
+.display-table-contents {
+  padding: 10px 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.display-table {
+  width: 100%;
+  display: table;
+}
+.social-icons {
+  margin: 0;
+  padding: 0;
+}
+
+.social-icons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+.social-icons li a {
+  display: inline-block;
+  color: #30bfba;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icon-link {
+  position: relative;
+}

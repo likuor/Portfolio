@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
+import './SocialMedias.css';
 
 const SocialMedias = () => {
   return (
