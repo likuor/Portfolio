@@ -52,13 +52,13 @@ li a:hover {
 }
 
 /* Introduce */
-.introduce-wrapper {
+.main-wrapper {
   background-color: orange;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   height: 100vh;
-  padding: 200px 10px;
+  padding: 74px 10px 0 10px;
   justify-content: start;
 }
 
@@ -72,8 +72,7 @@ li a:hover {
   width: auto;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px 0 15px;
 }
 
 .display-table-contents {

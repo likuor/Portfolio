@@ -1,15 +1,16 @@
 import React from 'react';
 
-const About = () => {
+const Works = () => {
   return (
     <section>
       <div>
         <div className='main-wrapper'>
-          <h1 className='about-title'>This is my about page</h1>
+          <h1 className='intro-title'>Works</h1>
+          <h1 className='intro-title'>Here's my arts</h1>
         </div>
       </div>
     </section>
   );
 };
 
-export default About;
+export default Works;

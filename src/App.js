@@ -5,9 +5,10 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar/NavBar';
 import SocialMedias from './components/SocialMedias';
 
-import Contact from './components/Contact';
-import About from './components/About';
 import Home from './components/Home';
+import About from './components/About';
+import Works from './components/Works/Works';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path='/About' element={<About />} />
+          <Route path='/Works' element={<Works />} />
           <Route path='/Contact' element={<Contact />} />
         </Routes>
       </Router>
