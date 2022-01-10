@@ -1,31 +1,53 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+import * as FaIcons from 'react-icons/fa';
 
 const Navbar = () => {
+  const [click, setClick] = useState(false);
+
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
   return (
-    <div className='nav-wrapper'>
-      <h1 className='nav-logo'>
-        Koki Sakai <i className='fab fa-react'></i>
-      </h1>
-      <div className='menu-icon'>
-        <i className='fas fa-times'></i>
+    <nav className='nav-wrapper'>
+      <NavLink to={'/'} className='navbar-logo'>
+        KokiSakai
+      </NavLink>
+      <div className='menu-icon' onClick={handleClick}>
+        {click ? (
+          <FaIcons.FaTimes className='fa-icons' />
+        ) : (
+          <FaIcons.FaBars className='faIcons' />
+        )}
       </div>
-      <ul className='nav-menu'>
-        <li className='nav-links'>
-          <NavLink to='/'>Home</NavLink>
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li className='nav-item'>
+          <NavLink to='/' className='nav-links' onClick={closeMobileMenu}>
+            Home
+          </NavLink>
         </li>
-        <li className='nav-links'>
-          <NavLink to='/about'>About</NavLink>
+        <li className='nav-item'>
+          <NavLink to='/about' className='nav-links' onClick={closeMobileMenu}>
+            About
+          </NavLink>
         </li>
-        <li className='nav-links'>
-          <NavLink to='/works'>Works</NavLink>
+        <li className='nav-item'>
+          <NavLink to='/works' className='nav-links' onClick={closeMobileMenu}>
+            Works
+          </NavLink>
         </li>
-        <li className='nav-links'>
-          <NavLink to='/contact'>Contact</NavLink>
+        <li className='nav-item'>
+          <NavLink
+            to='/contact'
+            className='nav-links'
+            onClick={closeMobileMenu}
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
