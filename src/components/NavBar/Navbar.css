@@ -1,4 +1,4 @@
-li {
+/* li {
   list-style: none;
   display: inline-block;
 }
@@ -15,4 +15,46 @@ a:visited {
 
 li a:hover {
   color: #30bfba;
+} */
+
+.nav-wrapper {
+  background-color: red;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.nav-logo {
+  justify-self: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  text-decoration: none;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+  background-color: #fff858;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+}
+
+.menu-icon {
+  display: none;
 }
