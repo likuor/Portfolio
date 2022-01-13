@@ -7,21 +7,6 @@ footer {
   width: auto;
 }
 
-/* Introduce */
-.main-wrapper {
-  background-color: orange;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  height: 100vh;
-  padding: 74px 10px 0 10px;
-}
-
-.intro-title {
-  font-weight: bold;
-  position: relative;
-}
-
 /* footer */
 h6.copy-right {
   margin: 0;
