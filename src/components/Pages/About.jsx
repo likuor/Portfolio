@@ -12,6 +12,7 @@ import {
   FaWordpress,
 } from 'react-icons/fa';
 import Icon from './Img/ProfileImg.jpg';
+import './About.css';
 
 const About = () => {
   return (

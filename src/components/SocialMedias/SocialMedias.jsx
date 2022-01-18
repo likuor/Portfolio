@@ -4,7 +4,7 @@ import './SocialMedias.css';
 
 const SocialMedias = () => {
   return (
-    <div className='container'>
+    <div className='.main-wrapper'>
       <div className='display-table'>
         <div className='display-table-contents'>
           <ul className='social-icons'>
@@ -13,8 +13,9 @@ const SocialMedias = () => {
                 href='https://www.instagram.com/le_pereza'
                 target='_blank'
                 rel='noopener noreferrer'
+                className='fa-icons'
               >
-                <FaInstagram color='black' size='2rem' />
+                <FaInstagram className='fa-icons' />
               </a>
             </li>
             <li className='icon-link'>
@@ -23,7 +24,7 @@ const SocialMedias = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <FaFacebook color='black' size='2rem' />
+                <FaFacebook className='fa-icons' />
               </a>
             </li>
             <li className='icon-link'>
@@ -32,7 +33,7 @@ const SocialMedias = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <FaGithub color='black' size='2rem' />
+                <FaGithub className='fa-icons' />
               </a>
             </li>
           </ul>

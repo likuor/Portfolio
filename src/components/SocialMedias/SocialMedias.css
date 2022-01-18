@@ -1,12 +1,5 @@
-.container {
-  width: auto;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 15px 0 15px;
-}
-
 .display-table-contents {
-  padding: 10px 0;
+  padding: 40px 0;
   text-align: center;
   display: table-cell;
   vertical-align: middle;
@@ -37,4 +30,9 @@
 
 .icon-link {
   position: relative;
+}
+
+.fa-icons {
+  color: #000;
+  font-size: 2rem;
 }

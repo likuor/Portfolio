@@ -1,0 +1,35 @@
+.about-container {
+  padding: 40px 120px;
+  display: flex;
+}
+
+.about-me-col {
+  flex: 1;
+}
+
+.img-container {
+  padding: 30px 60px;
+}
+
+.profile-img {
+  width: 100%;
+}
+
+.about-others-col {
+  flex: 1;
+}
+
+.flex-items {
+  flex: 1;
+}
+
+.description-highlight {
+  padding-left: 30px;
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.description-weak {
+  padding-left: 30px;
+  font-size: 0.9rem;
+}
