@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import './SocialMedias.css';
 
 const SocialMedias = () => {
@@ -8,6 +8,24 @@ const SocialMedias = () => {
       <div className='display-table'>
         <div className='display-table-contents'>
           <ul className='social-icons'>
+            <li className='icon-link'>
+              <a
+                href='https://linkedin.com/in/kokisakai'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaLinkedin className='fa-icons' />
+              </a>
+            </li>
+            <li className='icon-link'>
+              <a
+                href='https://github.com/likuor'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <FaGithub className='fa-icons' />
+              </a>
+            </li>
             <li className='icon-link'>
               <a
                 href='https://www.instagram.com/le_pereza'
@@ -25,15 +43,6 @@ const SocialMedias = () => {
                 rel='noopener noreferrer'
               >
                 <FaFacebook className='fa-icons' />
-              </a>
-            </li>
-            <li className='icon-link'>
-              <a
-                href='https://github.com/likuor'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                <FaGithub className='fa-icons' />
               </a>
             </li>
           </ul>

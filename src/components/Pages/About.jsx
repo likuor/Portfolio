@@ -10,13 +10,14 @@ import {
   FaDatabase,
   FaGithub,
   FaWordpress,
+  FaTrophy,
 } from 'react-icons/fa';
 import Icon from './Img/ProfileImg.jpg';
 import './About.css';
 
 const About = () => {
   return (
-    <section>
+    <section id='about'>
       <div className='main-wrapper'>
         <div className='about-container'>
           <div className='about-me-col'>
@@ -81,6 +82,20 @@ const About = () => {
               </p>
               <p className='description-weak'>
                 (Jan. 2022 ~ Jan. 2023 / Vancouver, Canada)
+              </p>
+            </div>
+            <div className='flex-items'>
+              <h2 className='title-h2'>Awards</h2>
+              <p className='description-highlight'>
+                <FaTrophy className='icon-inSentence' />
+                Award of NoCode Japan in NoCode Click Hackathon
+              </p>
+              <p className='description-weak'>(Jun. 2021)</p>
+              <p className='description-highlight'>
+                Got an pleasant award of making a internet forum app, the app
+                content rating, and writing comment functions for food delivery
+                drivers from scratch. They can share their favorite places to
+                wait until they got orders.
               </p>
             </div>
             <div className='flex-items'>

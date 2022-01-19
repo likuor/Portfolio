@@ -31,5 +31,13 @@
 
 .description-weak {
   padding-left: 30px;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.icon-inSentence {
+  position: relative;
+  top: 2px;
+  padding-right: 10px;
 }

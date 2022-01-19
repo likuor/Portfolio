@@ -13,6 +13,9 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Home />
+      <About />
+      <Works />
       <Routes>
         <Route index element={<Home />} />
         <Route path='/About' element={<About />} />
