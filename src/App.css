@@ -2,36 +2,6 @@ footer {
   margin-bottom: 60px;
 }
 
-.main-wrapper {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #2a929b;
-}
-
-.contents-wrapper {
-  padding: 40px 120px;
-}
-
-.title-h1 {
-  font-size: 4rem;
-  color: #fff;
-}
-
-.title-h2 {
-  font-size: 3rem;
-  color: #fff;
-}
-
-.title-h4 {
-  font-size: 1.2rem;
-  color: #fff;
-}
-
 /* footer */
 h6.copy-right {
   margin: 0;
