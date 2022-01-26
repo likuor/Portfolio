@@ -98,13 +98,6 @@ const About = () => {
                 wait until they got orders.
               </p>
             </div>
-            <div className='flex-items'>
-              <h2 className='title-h2'>Leisure</h2>
-              <p className='description-highlight'>
-                I love shooting photographs, playing soccer and ukulele, as well
-                as coding and programming
-              </p>
-            </div>
           </div>
         </div>
       </div>

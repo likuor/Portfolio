@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import * as FaIcons from 'react-icons/fa';
-import { Link as Scroll } from 'react-scroll';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -25,17 +24,17 @@ const Navbar = () => {
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className='nav-item'>
           <NavLink to='/' className='nav-links' onClick={closeMobileMenu}>
-            <Scroll to='home'>Home</Scroll>
+            Home
           </NavLink>
         </li>
         <li className='nav-item'>
           <NavLink to='/about' className='nav-links' onClick={closeMobileMenu}>
-            <Scroll to='about'>About</Scroll>
+            About
           </NavLink>
         </li>
         <li className='nav-item'>
           <NavLink to='/works' className='nav-links' onClick={closeMobileMenu}>
-            <Scroll to='works'>Works</Scroll>
+            Works
           </NavLink>
         </li>
         <li className='nav-item'>
@@ -44,7 +43,7 @@ const Navbar = () => {
             className='nav-links'
             onClick={closeMobileMenu}
           >
-            <Scroll to='contact'>Contact</Scroll>
+            Contact
           </NavLink>
         </li>
       </ul>
