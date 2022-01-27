@@ -31,13 +31,13 @@ const About = () => {
             </div>
           </div>
           <div className='about-others-col'>
-            <div className='flex-items'>
+            <div>
               <h2 className='title-h2'>Skills</h2>
               <p className='description-highlight'>
                 React.js, Laravel, CakePHP, JavaScript, PHP, HTML5, CSS3, MySQL,
                 WordPress, Git
               </p>
-              <p>
+              <div className='icons-container'>
                 <ul className='skills-icons'>
                   <li>
                     <FaReact />
@@ -70,9 +70,9 @@ const About = () => {
                     <FaGithub />
                   </li>
                 </ul>
-              </p>
+              </div>
             </div>
-            <div className='flex-items'>
+            <div>
               <h2 className='title-h2'>Education</h2>
               <p className='description-highlight'>
                 Web & Mobile App Development Co-Op Diploma
@@ -81,10 +81,10 @@ const About = () => {
                 Cornerstone International Community College of Canada(CICCC)
               </p>
               <p className='description-weak'>
-                (Jan. 2022 ~ Jan. 2023 / Vancouver, Canada)
+                (Jan. 2022 - Jan. 2023 / Vancouver, Canada)
               </p>
             </div>
-            <div className='flex-items'>
+            <div>
               <h2 className='title-h2'>Awards</h2>
               <p className='description-highlight'>
                 <FaTrophy className='icon-inSentence' />
