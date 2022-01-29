@@ -5,6 +5,7 @@ import {
   FaBirthdayCake,
   FaJs,
   FaPhp,
+  FaPython,
   FaHtml5,
   FaCss3,
   FaDatabase,
@@ -13,32 +14,36 @@ import {
   FaTrophy,
 } from 'react-icons/fa';
 import Icon from './Img/ProfileImg.jpg';
-import './About.css';
+import styles from './About.module.css';
 
 const About = () => {
   return (
     <section id='about'>
-      <div className='main-wrapper'>
-        <div className='about-container'>
-          <div className='about-me-col'>
-            <h2 className='title-h2'>About me</h2>
-            <p className='description-highlight'>
+      <div className={styles.mainWrapper}>
+        <div className={styles.aboutContainer}>
+          <div className={styles.aboutMeCol}>
+            <h2 className={styles.titleH2}>About me</h2>
+            <p className={styles.descriptionHighlight}>
               I'm Koki Sakai, a Japanese Front-end developer, currently living
               in Vancouver, Canada.
             </p>
-            <div className='img-container'>
-              <img src={Icon} alt='ProfileImage' className='profile-img' />
+            <div className={styles.imgContainer}>
+              <img
+                src={Icon}
+                alt='ProfileImage'
+                className={styles.profileImg}
+              />
             </div>
           </div>
-          <div className='about-others-col'>
-            <div>
-              <h2 className='title-h2'>Skills</h2>
-              <p className='description-highlight'>
-                React.js, Laravel, CakePHP, JavaScript, PHP, HTML5, CSS3, MySQL,
-                WordPress, Git
+          <div className={styles.aboutOthersCol}>
+            <div className={styles.othersColContainer}>
+              <h2 className={styles.titleH2}>Skills</h2>
+              <p className={styles.descriptionHighlight}>
+                React.js, Laravel, CakePHP, JavaScript, PHP, Python, HTML5,
+                CSS3, MySQL, WordPress, Git
               </p>
-              <div className='icons-container'>
-                <ul className='skills-icons'>
+              <div className={styles.iconsContainer}>
+                <ul className={styles.skillsIcons}>
                   <li>
                     <FaReact />
                   </li>
@@ -53,6 +58,9 @@ const About = () => {
                   </li>
                   <li>
                     <FaPhp />
+                  </li>
+                  <li>
+                    <FaPython />
                   </li>
                   <li>
                     <FaHtml5 />
@@ -72,26 +80,26 @@ const About = () => {
                 </ul>
               </div>
             </div>
-            <div>
-              <h2 className='title-h2'>Education</h2>
-              <p className='description-highlight'>
+            <div className={styles.othersColContainer}>
+              <h2 className={styles.titleH2}>Education</h2>
+              <p className={styles.descriptionHighlight}>
                 Web & Mobile App Development Co-Op Diploma
               </p>
-              <p className='description-highlight'>
+              <p className={styles.descriptionHighlight}>
                 Cornerstone International Community College of Canada(CICCC)
               </p>
-              <p className='description-weak'>
+              <p className={styles.descriptionWeak}>
                 (Jan. 2022 - Jan. 2023 / Vancouver, Canada)
               </p>
             </div>
-            <div>
-              <h2 className='title-h2'>Awards</h2>
-              <p className='description-highlight'>
-                <FaTrophy className='icon-inSentence' />
+            <div className={styles.othersColContainer}>
+              <h2 className={styles.titleH2}>Awards</h2>
+              <p className={styles.descriptionHighlight}>
+                <FaTrophy className={styles.iconInSentence} />
                 Award of NoCode Japan in NoCode Click Hackathon
               </p>
-              <p className='description-weak'>(Jun. 2021)</p>
-              <p className='description-highlight'>
+              <p className={styles.descriptionWeak}>(Jun. 2021)</p>
+              <p className={styles.descriptionHighlight}>
                 Got an pleasant award of making a internet forum app, the app
                 content rating, and writing comment functions for food delivery
                 drivers from scratch. They can share their favorite places to
