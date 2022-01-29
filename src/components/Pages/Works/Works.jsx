@@ -1,14 +1,15 @@
 import React from 'react';
+import './Works.css';
 
 const Works = () => {
   return (
     <section id='works'>
       <div className='main-wrapper'>
         <div className='contents-wrapper'>
-          <h2 className='title-h2'>Works</h2>
-          <h4 className='description-highlight'>
-            &lt;p&gt; Here's my art &lt;/p&gt;
-          </h4>
+          <h1 className='title-h1'>
+            <p>Works</p>
+          </h1>
+          <h4 className='title-h4'>&lt;p&gt; Here's my art &lt;/p&gt;</h4>
         </div>
       </div>
     </section>
