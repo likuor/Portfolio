@@ -20,14 +20,6 @@
   padding: 0;
 }
 
-p {
-  margin: 0;
-  padding: 0;
-  font-size: 4vw;
-  font-weight: bold;
-  color: #fff;
-}
-
 .titleH4 {
   font-size: 1.5vw;
   color: #fff;
@@ -35,14 +27,24 @@ p {
   padding: 0;
 }
 
-.skills-icons li {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
+.contentsBtn {
+  margin-top: 90px;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 16px 64px;
+  text-decoration: none;
+  height: 54px;
+  background: #fff;
+  color: #2a929b;
+}
+
+.btn:hover {
+  background: #ff492c;
   color: #fff;
-  font-size: 3rem;
-  padding-left: 5px;
-  padding-right: 15px;
+  transition: all 0.2s ease-out;
 }
 
 @media screen and (max-width: 960px) {
@@ -60,18 +62,18 @@ p {
     color: #fff;
   }
 
-  p {
-    margin: 0;
-    padding: 0;
-    font-size: 10vw;
-    font-weight: bold;
-    color: #fff;
-  }
-
   .titleH4 {
     font-size: 5vw;
     color: #fff;
     margin: 0;
     padding: 0;
+  }
+
+  .btn {
+    font-size: 3.5vw;
+    border-radius: 4px;
+    padding: 2vw 8vw;
+    text-decoration: none;
+    height: 5vw;
   }
 }

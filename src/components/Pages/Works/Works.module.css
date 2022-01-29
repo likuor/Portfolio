@@ -38,7 +38,22 @@
   .titleH1 {
     margin: 0;
     padding: 0;
-    font-size: 7vw;
+    font-size: 10vw;
     color: #fff;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 10vw;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .titleH4 {
+    font-size: 5vw;
+    color: #fff;
+    margin: 0;
+    padding: 0;
   }
 }

@@ -1,18 +1,18 @@
 import React from 'react';
-import './Contact.css';
+import styles from './Contact.module.css';
 
 const Contact = () => {
   return (
     <section id='contact'>
-      <div className='main-wrapper'>
-        <div className='contents-wrapper'>
-          <h1 className='title-h1'>Contact me</h1>
-          <h4 className='title-h4'>
-            &lt;p&gt; Feel free to send messages to me! &lt;/p&gt;
+      <div className={styles.mainWrapper}>
+        <div className={styles.contentsWrapper}>
+          <h1 className={styles.titleH1}>Contact me</h1>
+          <h4 className={styles.titleH4}>
+            &lt;p&gt; Don't hesitate to DM! &lt;/p&gt;
           </h4>
-          <div className='contents-btn'>
-            <a href='https://twitter.com/le_pereza' className='btn'>
-              Go DM me
+          <div className={styles.contentsBtn}>
+            <a href='https://twitter.com/le_pereza' className={styles.btn}>
+              Welcome
             </a>
           </div>
         </div>
