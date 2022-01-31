@@ -19,6 +19,27 @@
   padding: 1vw 4vw 1vw 1vw;
 }
 
+.contentsBtn {
+  margin-top: 1vw;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 16px 84px;
+  text-decoration: none;
+  background: #fff;
+  color: #2a929b;
+}
+
+.btn:hover {
+  background: #ff492c;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
 .profileImg {
   width: 100%;
 }
@@ -86,6 +107,14 @@ ul.skillsIcons {
   .aboutContainer {
     padding: 100px 8vw 20px;
     flex-direction: column;
+  }
+
+  .btn {
+    font-size: 3.5vw;
+    border-radius: 4px;
+    padding: 2vw 8vw;
+    text-decoration: none;
+    height: 5vw;
   }
 
   .titleH2 {

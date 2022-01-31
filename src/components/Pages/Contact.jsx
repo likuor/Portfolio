@@ -11,7 +11,12 @@ const Contact = () => {
             &lt;p&gt; Don't hesitate to DM! &lt;/p&gt;
           </h4>
           <div className={styles.contentsBtn}>
-            <a href='https://twitter.com/le_pereza' className={styles.btn}>
+            <a
+              href='https://twitter.com/le_pereza'
+              target='_blank'
+              rel='noopener noreferrer'
+              className={styles.btn}
+            >
               Welcome
             </a>
           </div>

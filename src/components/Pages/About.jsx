@@ -33,6 +33,16 @@ const About = () => {
                 alt='ProfileImage'
                 className={styles.profileImg}
               />
+              <div className={styles.contentsBtn}>
+                <a
+                  href='https://drive.google.com/file/d/16Swvf2l9q8p43umaMAT6-OClpemF8dOh/view?usp=sharing'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className={styles.btn}
+                >
+                  See Resume
+                </a>
+              </div>
             </div>
           </div>
           <div className={styles.aboutOthersCol}>
