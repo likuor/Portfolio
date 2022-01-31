@@ -6,6 +6,7 @@ import {
   FaJs,
   FaPhp,
   FaPython,
+  FaJava,
   FaHtml5,
   FaCss3,
   FaDatabase,
@@ -49,8 +50,8 @@ const About = () => {
             <div className={styles.othersColContainer}>
               <h2 className={styles.titleH2}>Skills</h2>
               <p className={styles.descriptionHighlight}>
-                React.js, Laravel, CakePHP, JavaScript, PHP, Python, HTML5,
-                CSS3, MySQL, WordPress, Git
+                React.js, Laravel, CakePHP, JavaScript, PHP, Python, Java,
+                HTML5, CSS3, MySQL, WordPress, Git
               </p>
               <div className={styles.iconsContainer}>
                 <ul className={styles.skillsIcons}>
@@ -71,6 +72,9 @@ const About = () => {
                   </li>
                   <li>
                     <FaPython />
+                  </li>
+                  <li>
+                    <FaJava />
                   </li>
                   <li>
                     <FaHtml5 />
