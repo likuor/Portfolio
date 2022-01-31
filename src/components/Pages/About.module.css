@@ -75,6 +75,7 @@
 .iconsContainer {
   display: flex;
   align-items: center;
+  padding-left: 1vw;
 }
 
 ul.skillsIcons {
