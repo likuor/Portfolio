@@ -28,7 +28,7 @@ const About = () => {
               <Typed
                 strings={[
                   'About me',
-                  'Have a fun to chill out here',
+                  'Have fun to chill out here',
                   'Welcom back to seeing me!',
                 ]}
                 typeSpeed={60}
