@@ -16,7 +16,7 @@ import {
 } from 'react-icons/fa';
 import Icon from './Img/ProfileImg.jpg';
 import styles from './About.module.css';
-import Typed from 'react-typed';
+import Typing from '../Typing/Typing.jsx';
 
 const About = () => {
   return (
@@ -24,18 +24,8 @@ const About = () => {
       <div className={styles.mainWrapper}>
         <div className={styles.aboutContainer}>
           <div className={styles.aboutMeCol}>
-            <h2>
-              <Typed
-                strings={[
-                  'About me',
-                  'Have fun to chill out here',
-                  'Welcom back to seeing me!',
-                ]}
-                typeSpeed={60}
-                backSpeed={30}
-                loop
-                className={styles.titleH2}
-              />
+            <h2 className={styles.titleH2}>
+              <Typing />
             </h2>
             <p className={styles.descriptionHighlight}>
               I'm Koki Sakai, a Japanese Front-end developer, currently living
