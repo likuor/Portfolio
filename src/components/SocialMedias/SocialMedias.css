@@ -9,14 +9,8 @@
   width: 100%;
   display: table;
 }
-.social-icons {
-  margin: 0;
-  padding: 0;
-}
 
 .social-icons li {
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: inline-block;
 }
