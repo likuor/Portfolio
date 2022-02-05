@@ -1,6 +1,7 @@
 import React from 'react';
 import {
   FaReact,
+  FaNodeJs,
   FaLaravel,
   FaBirthdayCake,
   FaJs,
@@ -10,7 +11,9 @@ import {
   FaHtml5,
   FaCss3,
   FaDatabase,
+  FaGitAlt,
   FaGithub,
+  FaFigma,
   FaWordpress,
   FaTrophy,
 } from 'react-icons/fa';
@@ -53,13 +56,16 @@ const About = () => {
             <div className={styles.othersColContainer}>
               <h2 className={styles.titleH2}>Skills</h2>
               <p className={styles.descriptionHighlight}>
-                React.js, Laravel, CakePHP, JavaScript, PHP, Python, Java,
-                HTML5, CSS3, MySQL, WordPress, Git
+                React.js, Node.js, Laravel, CakePHP, JavaScript, PHP, Python,
+                Java, HTML5, CSS3, MySQL, WordPress, Git, Github, Figma
               </p>
               <div className={styles.iconsContainer}>
                 <ul className={styles.skillsIcons}>
                   <li>
                     <FaReact />
+                  </li>
+                  <li>
+                    <FaNodeJs />
                   </li>
                   <li>
                     <FaLaravel />
@@ -92,7 +98,13 @@ const About = () => {
                     <FaWordpress />
                   </li>
                   <li>
+                    <FaGitAlt />
+                  </li>
+                  <li>
                     <FaGithub />
+                  </li>
+                  <li>
+                    <FaFigma />
                   </li>
                 </ul>
               </div>
