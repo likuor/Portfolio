@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import * as FaIcons from 'react-icons/fa';
+import { NavbarData } from './NavbarData';
 
-const Navbar = () => {
+function Navbar() {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
@@ -22,33 +22,22 @@ const Navbar = () => {
         )}
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <li className='nav-item'>
-          <NavLink to='/' className='nav-links' onClick={closeMobileMenu}>
-            Home
-          </NavLink>
-        </li>
-        <li className='nav-item'>
-          <NavLink to='/about' className='nav-links' onClick={closeMobileMenu}>
-            About
-          </NavLink>
-        </li>
-        <li className='nav-item'>
-          <NavLink to='/works' className='nav-links' onClick={closeMobileMenu}>
-            Works
-          </NavLink>
-        </li>
-        <li className='nav-item'>
-          <NavLink
-            to='/contact'
-            className='nav-links'
-            onClick={closeMobileMenu}
-          >
-            Contact
-          </NavLink>
-        </li>
+        {NavbarData.map((val) => {
+          return (
+            <li className='nav-item'>
+              <NavLink
+                to={val.link}
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                {val.title}
+              </NavLink>{' '}
+            </li>
+          );
+        })}
       </ul>
     </nav>
   );
-};
+}
 
 export default Navbar;
