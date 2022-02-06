@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Navbar.css';
 import * as FaIcons from 'react-icons/fa';
 import { NavbarData } from './NavbarData';
@@ -11,9 +11,10 @@ function Navbar() {
 
   return (
     <nav className='nav-wrapper'>
-      <NavLink to={'/'} className='navbar-logo'>
-        KokiSakai
-      </NavLink>
+      <Link to='/' className='navbar-logo'>
+        Koki Sakai
+      </Link>
+
       <div className='menu-icon' onClick={handleClick}>
         {click ? (
           <FaIcons.FaTimes className='fa-icons' />
