@@ -28,6 +28,7 @@ function Navbar() {
               <NavLink
                 to={val.link}
                 className='nav-links'
+                activeClassName='active'
                 onClick={closeMobileMenu}
               >
                 {val.title}
