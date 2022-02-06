@@ -18,7 +18,7 @@ const Navbar = () => {
         {click ? (
           <FaIcons.FaTimes className='fa-icons' />
         ) : (
-          <FaIcons.FaBars className='faIcons' />
+          <FaIcons.FaBars className='fa-icons' />
         )}
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
