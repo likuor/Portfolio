@@ -54,6 +54,11 @@
   display: none;
 }
 
+.active {
+  color: #ff492c;
+  border-bottom: 2px solid #ff492c;
+}
+
 @media screen and (max-width: 960px) {
   .nav-item {
     position: relative;
