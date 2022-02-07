@@ -42,7 +42,7 @@ const About = () => {
               />
               <div className={styles.contentsBtn}>
                 <a
-                  href='https://drive.google.com/file/d/16Swvf2l9q8p43umaMAT6-OClpemF8dOh/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1xoy35zCP6fVfVwsUAzQrL3SGAiXtQ2LS/view?usp=sharing'
                   target='_blank'
                   rel='noopener noreferrer'
                   className={styles.btn}
