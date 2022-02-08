@@ -108,13 +108,11 @@ const About = () => {
             <div className={styles.othersColContainer}>
               <h2 className={styles.titleH2}>Education</h2>
               <p className={styles.descriptionHighlight}>
-                Web & Mobile App Development Co-Op Diploma
-              </p>
-              <p className={styles.descriptionHighlight}>
-                Cornerstone International Community College of Canada(CICCC)
-              </p>
-              <p className={styles.descriptionWeak}>
-                (Jan. 2022 - Jan. 2023 / Vancouver, Canada)
+                Web & Mobile App Development Co-Op Diploma <br />
+                Cornerstone International Community College of Canada
+                <span className={styles.descriptionWeak}>
+                  (Jan. 2022 - / Canada)
+                </span>
               </p>
             </div>
             <div className={styles.othersColContainer}>
@@ -122,8 +120,10 @@ const About = () => {
               <p className={styles.descriptionHighlight}>
                 <FaTrophy className={styles.iconInSentence} />
                 Award of NoCode Japan in NoCode Click Hackathon
+                <span className={styles.descriptionWeak}>
+                  (Jun. 2021, Japan)
+                </span>
               </p>
-              <p className={styles.descriptionWeak}>(Jun. 2021)</p>
               <p className={styles.descriptionHighlight}>
                 Got an pleasant award of making a internet forum app, the app
                 content rating, and writing comment functions for food delivery
