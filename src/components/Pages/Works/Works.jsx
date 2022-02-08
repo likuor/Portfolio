@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Works.module.css';
 import { WorksData } from './WorksData/WorksData';
+import WorksImg from './WorksImg/Restarea.jpg';
 
 const Works = () => {
   return (
@@ -15,7 +16,7 @@ const Works = () => {
             return (
               <a href={val.link} rel='noopener noreferrer' target='_blank'>
                 <div className={styles.eachWorks}>
-                  <img src={val.img} alt='worksImage' />
+                  <img src={WorksImg} alt='worksImage' />
                 </div>
               </a>
             );
