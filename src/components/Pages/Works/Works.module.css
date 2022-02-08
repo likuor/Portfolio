@@ -1,14 +1,30 @@
 .mainWrapper {
   width: 100%;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: #2a929b;
 }
 
-.contentsWrapper {
-  padding: 10vw;
+.titleContainer {
+  padding: 100px 8vw 20px;
+}
+
+.worksContainer {
+  padding: 0px 8vw;
+  width: auto;
+  height: 30vw;
+}
+
+.eachWorks {
+  width: 25vw;
+  height: 30vw;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  height: 30vw;
 }
 
 .titleH1 {
@@ -24,7 +40,22 @@
 @media screen and (max-width: 960px) {
   .main-wrapper {
     width: 100%;
-    height: 100vh;
+    height: auto;
+  }
+
+  .worksContainer {
+    padding: 0px 8vw;
+    width: auto;
+    height: 90vw;
+  }
+
+  .eachWorks {
+    width: 80vw;
+    height: 90vw;
+  }
+
+  img {
+    height: 85vw;
   }
 
   .titleH1 {
