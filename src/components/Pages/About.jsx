@@ -35,11 +35,7 @@ const About = () => {
               in Vancouver, Canada.
             </p>
             <div className={styles.imgContainer}>
-              <img
-                src={Icon}
-                alt='ProfileImage'
-                className={styles.profileImg}
-              />
+              <img src={Icon} alt='ProfileImage' />
               <div className={styles.contentsBtn}>
                 <a
                   href='https://drive.google.com/file/d/1xoy35zCP6fVfVwsUAzQrL3SGAiXtQ2LS/view?usp=sharing'

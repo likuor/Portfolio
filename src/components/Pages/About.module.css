@@ -38,10 +38,6 @@
   transition: all 0.2s ease-out;
 }
 
-.profileImg {
-  width: 100%;
-}
-
 .aboutOthersCol {
   flex: 1;
 }
@@ -99,6 +95,15 @@
   .aboutContainer {
     padding: 100px 8vw 20px;
     flex-direction: column;
+  }
+
+  .imgContainer {
+    padding: 1vw;
+    width: 84vw;
+  }
+
+  img {
+    height: 63vw;
   }
 
   .btn {
