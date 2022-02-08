@@ -102,8 +102,9 @@
     width: 84vw;
   }
 
-  img {
-    height: 63vw;
+  .imgSize {
+    width: 100%;
+    height: 65vw;
   }
 
   .btn {
