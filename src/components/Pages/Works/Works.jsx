@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Works.module.css';
 import { WorksData } from './WorksData/WorksData';
-import WorksImg from './WorksImg/Restarea.jpg';
 
 const Works = () => {
   return (
@@ -21,7 +20,7 @@ const Works = () => {
                 target='_blank'
               >
                 <div className={styles.eachWorks}>
-                  <img src={WorksImg} alt='worksImage' />
+                  <img src={val.img} alt='worksImage' />
                 </div>
               </a>
             );
