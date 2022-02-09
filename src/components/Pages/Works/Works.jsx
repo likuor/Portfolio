@@ -12,9 +12,14 @@ const Works = () => {
           <h4 className={styles.titleH4}>&lt;p&gt; Here's my art &lt;/p&gt;</h4>
         </div>
         <div className={styles.worksContainer}>
-          {WorksData.map((val) => {
+          {WorksData.map((val, index) => {
             return (
-              <a href={val.link} rel='noopener noreferrer' target='_blank'>
+              <a
+                key={index}
+                href={val.link}
+                rel='noopener noreferrer'
+                target='_blank'
+              >
                 <div className={styles.eachWorks}>
                   <img src={WorksImg} alt='worksImage' />
                 </div>

@@ -23,13 +23,13 @@ function Navbar() {
         )}
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        {NavbarData.map((val) => {
+        {NavbarData.map((val, index) => {
           return (
-            <li className='nav-item'>
+            <li key={index} className='nav-item'>
               <NavLink
                 to={val.link}
                 className='nav-links'
-                activeClassName='active'
+                activeclassname='active'
                 onClick={closeMobileMenu}
               >
                 {val.title}
