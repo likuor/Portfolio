@@ -8,6 +8,7 @@ import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Works from './components/Pages/Works/Works';
 import Contact from './components/Pages/Contact';
+import NoMatch from './components/Pages/NoMatch';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Route path='/' index element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Works' element={<Works />} />
-        <Route path='/Contact' element={<Contact />} />g{' '}
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='*' element={<NoMatch />} />
       </Routes>
       <SocialMedias />
       <Footer />
