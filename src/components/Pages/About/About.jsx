@@ -17,9 +17,9 @@ import {
   FaWordpress,
   FaTrophy,
 } from 'react-icons/fa';
-import Icon from './Img/ProfileImg.jpg';
+import Icon from '../Img/ProfileImg.jpg';
 import styles from './About.module.css';
-import Typing from '../Typing/Typing.jsx';
+import Typing from '../../Typing/Typing.jsx';
 
 const About = () => {
   return (
