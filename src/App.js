@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
+import Footer from './components/Pages/Footer/Footer';
 import Navbar from './components/NavBar/Navbar';
 import SocialMedias from './components/SocialMedias/SocialMedias';
 
-import Home from './components/Pages/Home';
-import About from './components/Pages/About';
+import Home from './components/Pages/Home/Home';
+import About from './components/Pages/About/About';
 import Works from './components/Pages/Works/Works';
-import Contact from './components/Pages/Contact';
-import NoMatch from './components/Pages/NoMatch';
+import Contact from './components/Pages/Contact/Contact';
+import NoMatch from './components/Pages/NoMatch/NoMatch';
 
 function App() {
   return (
