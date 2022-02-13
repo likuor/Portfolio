@@ -23,6 +23,15 @@
   align-items: center;
 }
 
+.worksContainer ul {
+  list-style: none;
+  display: flex;
+}
+
+.worksContainer li:last-child {
+  margin: 0 0 0 2vw;
+}
+
 img {
   height: 30vw;
 }
@@ -38,24 +47,30 @@ img {
 }
 
 @media screen and (max-width: 960px) {
-  .main-wrapper {
+  .mainWrapper {
     width: 100%;
     height: auto;
   }
 
   .worksContainer {
-    padding: 0px 8vw;
-    width: auto;
-    height: 90vw;
+    height: auto;
+  }
+
+  .worksContainer ul {
+    flex-direction: column;
+  }
+
+  .worksContainer li:last-child {
+    margin: 4vw 0 4vw 0;
   }
 
   .eachWorks {
-    width: 80vw;
-    height: 90vw;
+    width: 100%;
+    height: auto;
   }
 
   img {
-    height: 85vw;
+    height: 84vw;
   }
 
   .titleH1 {
