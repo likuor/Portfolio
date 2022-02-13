@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import ReactGa from 'react-ga';
 import Footer from './components/Pages/Footer/Footer';
 import Navbar from './components/NavBar/Navbar';
 import SocialMedias from './components/SocialMedias/SocialMedias';
@@ -13,12 +11,6 @@ import Contact from './components/Pages/Contact/Contact';
 import NoMatch from './components/Pages/NoMatch/NoMatch';
 
 function App() {
-  useEffect(() => {
-    ReactGa.initialize('G-HFVGSVN8HZ');
-
-    ReactGa.pageview(window.location.pathname + window.location.search);
-  }, []);
-
   return (
     <div>
       <Navbar />
