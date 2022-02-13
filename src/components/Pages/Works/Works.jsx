@@ -11,20 +11,24 @@ const Works = () => {
           <h4 className={styles.titleH4}>&lt;p&gt; Here's my art &lt;/p&gt;</h4>
         </div>
         <div className={styles.worksContainer}>
-          {WorksData.map((val, index) => {
-            return (
-              <a
-                key={index}
-                href={val.link}
-                rel='noopener noreferrer'
-                target='_blank'
-              >
-                <div className={styles.eachWorks}>
-                  <img src={val.img} alt='worksImage' />
-                </div>
-              </a>
-            );
-          })}
+          <ul>
+            {WorksData.map((val, index) => {
+              return (
+                <li className={styles.worksTest}>
+                  <a
+                    key={index}
+                    href={val.link}
+                    rel='noopener noreferrer'
+                    target='_blank'
+                  >
+                    <div className={styles.eachWorks}>
+                      <img src={val.img} alt='worksImage' />
+                    </div>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
         </div>
       </div>
     </section>
