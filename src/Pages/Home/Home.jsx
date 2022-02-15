@@ -1,15 +1,16 @@
-import Layout from '../Layout';
-import styles from './Home.module.css';
+import Title from '../Title';
+import Caption from '../Caption';
+import styles from '../Layout.module.css';
 
 const Home = (props) => {
   return (
     <section id={props.id} className={styles.sectionWrapper}>
-      <Layout
-        title='Hi'
-        name="I'm Koki,"
-        content='a web developer'
-        subTitle='&lt;p&gt; Front-end developer &lt;/p&gt;'
-      />
+      <div className={styles.contentsWrapper}>
+        <Title title='Hi' />
+        <Title title="I'm Koki," />
+        <Title title='a web developer' />
+        <Caption caption='&lt;p&gt; Front-end developer &lt;/p&gt;' />
+      </div>
     </section>
   );
 };
