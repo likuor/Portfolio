@@ -14,7 +14,7 @@ const Works = () => {
           <ul>
             {WorksData.map((val, index) => {
               return (
-                <li className={styles.worksTest}>
+                <li className={styles.worksTest} key={index}>
                   <a
                     key={index}
                     href={val.link}
