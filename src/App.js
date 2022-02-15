@@ -15,20 +15,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route
-          path='/'
-          index
-          element={
-            <Home
-              id='home'
-              title='Hi'
-              name="I'm Koki,"
-              content='a web developer'
-              subTitle='&lt;p&gt; Front-end developer &lt;/p&gt;'
-            />
-          }
-        />
-
+        <Route path='/' index element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Works' element={<Works />} />
         <Route path='/Contact' element={<Contact />} />
