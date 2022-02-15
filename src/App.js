@@ -4,7 +4,7 @@ import Footer from './components/Pages/Footer/Footer';
 import Navbar from './components/NavBar/Navbar';
 import SocialMedias from './components/SocialMedias/SocialMedias';
 
-import Home from './components/Pages/Home/Home';
+import Home from './Pages/Home/Home';
 import About from './components/Pages/About/About';
 import Works from './components/Pages/Works/Works';
 import Contact from './components/Pages/Contact/Contact';
@@ -15,7 +15,20 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path='/' index element={<Home />} />
+        <Route
+          path='/'
+          index
+          element={
+            <Home
+              id='home'
+              title='Hi'
+              name="I'm Koki,"
+              content='a web developer'
+              subTitle='&lt;p&gt; Front-end developer &lt;/p&gt;'
+            />
+          }
+        />
+
         <Route path='/About' element={<About />} />
         <Route path='/Works' element={<Works />} />
         <Route path='/Contact' element={<Contact />} />
