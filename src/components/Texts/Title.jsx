@@ -1,7 +1,7 @@
 import styles from './Title.module.css';
 
-const Layout = (props) => {
+const Title = (props) => {
   return <h1 className={styles.title}>{props.title}</h1>;
 };
 
-export default Layout;
+export default Title;
