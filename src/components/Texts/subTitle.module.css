@@ -1,0 +1,13 @@
+.subTitle {
+  font-size: 2.5vw;
+  color: #fff;
+  margin: 0;
+}
+
+@media screen and (max-width: 960px) {
+  .subTitle {
+    font-size: 7vw;
+    color: #fff;
+    margin: 0;
+  }
+}

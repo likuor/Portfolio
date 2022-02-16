@@ -1,0 +1,15 @@
+.subCaption {
+  padding: 1vw;
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  .subCaption {
+    padding: 1vw;
+    font-size: 4vw;
+    line-height: 1.3em;
+    color: #fff;
+  }
+}

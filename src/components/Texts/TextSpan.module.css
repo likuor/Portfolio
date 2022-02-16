@@ -1,0 +1,15 @@
+.textSpan {
+  padding-left: 30px;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 960px) {
+  .textSpan {
+    padding-left: 2vw;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: lighter;
+  }
+}

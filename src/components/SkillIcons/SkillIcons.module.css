@@ -1,0 +1,31 @@
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  padding-left: 1vw;
+}
+
+.skillsIcons li {
+  padding-right: 1vw;
+  font-size: 2.5vw;
+  text-align: center;
+  display: inline;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .iconsContainer {
+    display: flex;
+    align-items: center;
+  }
+
+  ul.skillsIcons {
+    margin: 0;
+    padding: 2vw;
+  }
+
+  .skillsIcons li {
+    font-size: 8vw;
+    text-align: center;
+    display: inline;
+  }
+}
