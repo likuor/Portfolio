@@ -1,4 +1,4 @@
-import styles from './Layout.module.css';
+import styles from './Title.module.css';
 
 const Layout = (props) => {
   return <h1 className={styles.title}>{props.title}</h1>;

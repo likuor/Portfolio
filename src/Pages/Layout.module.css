@@ -11,19 +11,8 @@
   padding: 10vw;
 }
 
-.title {
-  font-size: 4vw;
-  color: #fff;
-}
-
 .subtitle {
   font-size: 1.5vw;
-  color: #fff;
-}
-
-.caption {
-  font-size: 2.5vw;
-  font-weight: lighter;
   color: #fff;
 }
 
@@ -36,15 +25,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .title {
-    font-size: 10vw;
-  }
-
   .subtitle {
     font-size: 5vw;
-  }
-
-  .caption {
-    font-size: 4.5vw;
   }
 }

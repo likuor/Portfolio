@@ -1,0 +1,29 @@
+.contentsBtn {
+  margin-top: 90px;
+}
+
+.btn {
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 16px 64px;
+  text-decoration: none;
+  height: 54px;
+  background: #fff;
+  color: #2a929b;
+}
+
+.btn:hover {
+  background: #ff492c;
+  color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+@media screen and (max-width: 960px) {
+  .btn {
+    font-size: 3.5vw;
+    border-radius: 4px;
+    padding: 2vw 8vw;
+    text-decoration: none;
+    height: 5vw;
+  }
+}
