@@ -1,5 +1,5 @@
-import Title from '../Title';
-import Caption from '../Caption';
+import Title from '../../components/Texts/Title';
+import Caption from '../../components/Texts/Caption';
 import styles from '../Layout.module.css';
 
 const Home = (props) => {
