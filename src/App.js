@@ -8,7 +8,7 @@ import Home from './Pages/Home/Home';
 import About from './components/Pages/About/About';
 import Works from './components/Pages/Works/Works';
 import Contact from './Pages/Contact/Contact';
-import NoMatch from './components/Pages/NoMatch/NoMatch';
+import NoMatch from './Pages/NoMatch/NoMatch';
 
 function App() {
   return (
