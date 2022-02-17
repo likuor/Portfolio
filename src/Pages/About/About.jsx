@@ -13,7 +13,7 @@ const About = (props) => {
     <section id={props.id}>
       <div className={styles.sectionWrapper}>
         <div className={styles.contentsWrapper}>
-          <div className={styles.halfBox}>
+          <div className={styles.eachContentsWrapper}>
             <SubTitle subTitle={<Typing />}></SubTitle>
             <SubCaption subCaption="I'm Koki Sakai, a Japanese Front-end developer, currently living in Vancouver, Canada."></SubCaption>
             <div className={styles.imgContainer}>
@@ -30,25 +30,24 @@ const About = (props) => {
               />
             </div>
           </div>
-          <div className={styles.halfBox}>
-            <div className={styles.halfBox}>
+          <div className={styles.eachContentsWrapper}>
+            <div className={styles.eachContentsWrapper}>
               <SubTitle subTitle='Skills'></SubTitle>
               <SubCaption subCaption='React.js, Node.js, Laravel, CakePHP, JavaScript, PHP, Python, Java, HTML5, CSS3, MySQL, WordPress, Git, Github, Figma' />
               <SkillIcons />
             </div>
-            <div className={styles.halfBox}>
+            <div className={styles.eachContentsWrapper}>
               <SubTitle subTitle='Education'></SubTitle>
               <SubCaption subCaption='Web & Mobile App Development Co-Op Diploma' />
               <SubCaption subCaption='Cornerstone International Community College of Canada' />
               <TextSpan contents='(Jan. 2022 - / Canada)' />
             </div>
-            <div className={styles.halfBox}>
+            <div className={styles.eachContentsWrapper}>
               <SubTitle subTitle='Awards'></SubTitle>
               <SubCaption subCaption='Award of NoCode Japan in NoCode Click Hackathon' />
               <TextSpan contents='(Jun. 2021, Japan)' />
               <SubCaption subCaption=' Got a pleasant award of making an internet forum app, the app content rating, and writing comment functions for food delivery drivers from scratch. They can share their favorite places to wait until they got orders.'></SubCaption>
             </div>
-            <p></p>
           </div>
         </div>
       </div>

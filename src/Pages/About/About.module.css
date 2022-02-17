@@ -9,7 +9,7 @@
   display: flex;
 }
 
-.halfBox {
+.eachContentsWrapper {
   flex: 1;
   margin: 0vw 0.4vw;
   padding-bottom: 1.5vh;
