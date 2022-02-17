@@ -1,14 +1,12 @@
 // import { FaTrophy } from 'react-icons/fa';
 import ProfileImg from './Img/ProfileImg.jpg';
 import SkillIcons from '../../components/SkillIcons/SkillIcons';
-
 import Typing from '../../components/Typing/Typing.jsx';
-import styles from './About.module.css';
-
 import SubTitle from '../../components/Texts/SubTitle';
 import SubCaption from '../../components/Texts/SubCaption';
 import TextSpan from '../../components/Texts/TextSpan';
-// import Button from '../../components/Button/Button';
+import Button from '../../components/Button/Button';
+import styles from './About.module.css';
 
 const About = (props) => {
   return (
@@ -25,15 +23,11 @@ const About = (props) => {
                 className={styles.imgSize}
               />
             </div>
-            <div className={styles.contentsBtn}>
-              <a
-                href='https://drive.google.com/file/d/1xoy35zCP6fVfVwsUAzQrL3SGAiXtQ2LS/view?usp=sharing'
-                target='_blank'
-                rel='noopener noreferrer'
-                className={styles.btn}
-              >
-                See Resume
-              </a>
+            <div className={styles.btnWrapper}>
+              <Button
+                message='Resume'
+                url='https://drive.google.com/file/d/1xoy35zCP6fVfVwsUAzQrL3SGAiXtQ2LS/view?usp=sharing'
+              />
             </div>
           </div>
           <div className={styles.halfBox}>
