@@ -1,8 +1,7 @@
 import Title from '../../components/Texts/Title';
 import Caption from '../../components/Texts/Caption';
-
+import EveryWorks from './EveryWorks';
 import styles from './Works.module.css';
-import { WorksData } from './WorksData/WorksData';
 
 const Works = (props) => {
   return (
@@ -11,25 +10,7 @@ const Works = (props) => {
         <Title title='Works' />
         <Caption caption="&lt;p&gt; Here's my works &lt;/p&gt;" />
         <div className={styles.worksWrapper}>
-          <ul>
-            {WorksData.map((val, index) => {
-              return (
-                <div className={styles.eachWorksWrapper} key={index}>
-                  <li>
-                    <a
-                      href={val.link}
-                      rel='noopener noreferrer'
-                      target='_blank'
-                    >
-                      <div className={styles.imgWrapper}>
-                        <img src={val.img} alt={val.alt} />
-                      </div>
-                    </a>
-                  </li>
-                </div>
-              );
-            })}
-          </ul>
+          <EveryWorks />
         </div>
       </div>
     </section>

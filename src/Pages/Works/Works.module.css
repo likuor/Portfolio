@@ -11,21 +11,6 @@
 .worksWrapper ul {
   margin-top: 2vw;
   display: flex;
-  list-style: none;
-}
-
-.eachWorksWrapper {
-  background-color: #fff;
-  width: 30vw;
-}
-
-.imgWrapper {
-  display: flex;
-  justify-content: center;
-}
-
-img {
-  height: 30vw;
 }
 
 @media screen and (max-width: 960px) {
@@ -35,14 +20,5 @@ img {
 
   .worksWrapper ul {
     flex-direction: column;
-  }
-
-  .eachWorksWrapper {
-    width: auto;
-    padding: 2vw;
-  }
-
-  img {
-    height: 80vw;
   }
 }
