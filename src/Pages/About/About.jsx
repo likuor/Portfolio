@@ -45,10 +45,17 @@ const About = (props) => {
             </div>
             <div className={styles.eachContentsWrapper}>
               <SubTitle subTitle='Awards' />
-              <CaptionWithDate
-                subCaption='Award of NoCode Japan in NoCode Click Hackathon'
-                date='(Jun. 2021, Japan)'
-              />
+              <a
+                className={styles.linkColor}
+                href='https://nocodejapan.org/media/click-hackathon-result-01/#NoCode_Japan_shangRestarea_jiu_jing_huang_guisan'
+                rel='noopener noreferrer'
+                target='_blank'
+              >
+                <CaptionWithDate
+                  subCaption='Award of NoCode Japan in NoCode Click Hackathon'
+                  date='(Jun. 2021, Japan)'
+                />
+              </a>
               <SubCaption subCaption=' Got a pleasant award of making an internet forum app, the app content rating, and writing comment functions for food delivery drivers from scratch. They can share their favorite places to wait until they got orders.'></SubCaption>
             </div>
           </div>
