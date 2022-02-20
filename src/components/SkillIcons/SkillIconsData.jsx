@@ -18,63 +18,63 @@ import {
 
 export const SkillIconsData = [
   {
-    title: 'React.js',
+    name: 'React.js',
     icon: <FaReact />,
   },
   {
-    title: 'Node.js',
+    name: 'Node.js',
     icon: <FaNodeJs />,
   },
   {
-    title: 'Laravel',
+    name: 'Laravel',
     icon: <FaLaravel />,
   },
   {
-    title: 'CakePHP',
+    name: 'CakePHP',
     icon: <FaBirthdayCake />,
   },
   {
-    title: 'Javascript',
+    name: 'Javascript',
     icon: <FaJs />,
   },
   {
-    title: 'PHP',
+    name: 'PHP',
     icon: <FaPhp />,
   },
   {
-    title: 'Python',
+    name: 'Python',
     icon: <FaPython />,
   },
   {
-    title: 'Java',
+    name: 'Java',
     icon: <FaJava />,
   },
   {
-    title: 'HTML5',
+    name: 'HTML5',
     icon: <FaHtml5 />,
   },
   {
-    title: 'CSS3',
+    name: 'CSS3',
     icon: <FaCss3 />,
   },
   {
-    title: 'SQL',
+    name: 'SQL',
     icon: <FaDatabase />,
   },
   {
-    title: 'Wordpress',
+    name: 'Wordpress',
     icon: <FaWordpress />,
   },
   {
-    title: 'Git',
+    name: 'Git',
     icon: <FaGitAlt />,
   },
   {
-    title: 'Github',
+    name: 'Github',
     icon: <FaGithub />,
   },
   {
-    title: 'Figma',
+    name: 'Figma',
     icon: <FaFigma />,
   },
 ];

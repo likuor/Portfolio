@@ -1,4 +1,3 @@
-// import { FaTrophy } from 'react-icons/fa';
 import ProfileImg from './Img/ProfileImg.jpg';
 import SkillIcons from '../../components/SkillIcons/SkillIcons';
 import Typing from '../../components/Typing/Typing.jsx';
@@ -14,8 +13,8 @@ const About = (props) => {
       <div className={styles.sectionWrapper}>
         <div className={styles.contentsWrapper}>
           <div className={styles.eachContentsWrapper}>
-            <SubTitle subTitle={<Typing />}></SubTitle>
-            <SubCaption subCaption="I'm Koki Sakai, a Japanese Front-end developer, currently living in Vancouver, Canada."></SubCaption>
+            <SubTitle subTitle={<Typing />} />
+            <SubCaption subCaption="I'm Koki Sakai, a Japanese Front-end developer, currently living in Vancouver, Canada." />
             <div className={styles.imgContainer}>
               <img
                 src={ProfileImg}
@@ -32,20 +31,20 @@ const About = (props) => {
           </div>
           <div className={styles.eachContentsWrapper}>
             <div className={styles.eachContentsWrapper}>
-              <SubTitle subTitle='Skills'></SubTitle>
-              <SubCaption subCaption='React.js, Node.js, Laravel, CakePHP, JavaScript, PHP, Python, Java, HTML5, CSS3, MySQL, WordPress, Git, Github, Figma' />
+              <SubTitle subTitle='Skills' />
+              <SubCaption subCaption='Mainly work with React.js for front-end in these days but I do work with also Laravel as back-end too' />
               <SkillIcons />
             </div>
             <div className={styles.eachContentsWrapper}>
-              <SubTitle subTitle='Education'></SubTitle>
+              <SubTitle subTitle='Education' />
               <CaptionWithDate
                 subCaption='Web & Mobile App Development Co-Op Diploma'
-                date='(Jan. 2022 - present / Canada)'
+                date='(Jan. 2022 - present, Canada)'
               />
               <SubCaption subCaption='Cornerstone International Community College of Canada' />
             </div>
             <div className={styles.eachContentsWrapper}>
-              <SubTitle subTitle='Awards'></SubTitle>
+              <SubTitle subTitle='Awards' />
               <CaptionWithDate
                 subCaption='Award of NoCode Japan in NoCode Click Hackathon'
                 date='(Jun. 2021, Japan)'
