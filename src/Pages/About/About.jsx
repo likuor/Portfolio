@@ -5,7 +5,6 @@ import Typing from '../../components/Typing/Typing.jsx';
 import SubTitle from '../../components/Texts/SubTitle';
 import SubCaption from '../../components/Texts/SubCaption';
 import CaptionWithDate from '../../components/Texts/CaptionWithDate';
-import TextSpan from '../../components/Texts/TextSpan';
 import Button from '../../components/Button/Button';
 import styles from './About.module.css';
 
