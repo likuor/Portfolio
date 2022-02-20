@@ -4,6 +4,7 @@ import SkillIcons from '../../components/SkillIcons/SkillIcons';
 import Typing from '../../components/Typing/Typing.jsx';
 import SubTitle from '../../components/Texts/SubTitle';
 import SubCaption from '../../components/Texts/SubCaption';
+import CaptionWithDate from '../../components/Texts/CaptionWithDate';
 import TextSpan from '../../components/Texts/TextSpan';
 import Button from '../../components/Button/Button';
 import styles from './About.module.css';
@@ -38,14 +39,18 @@ const About = (props) => {
             </div>
             <div className={styles.eachContentsWrapper}>
               <SubTitle subTitle='Education'></SubTitle>
-              <SubCaption subCaption='Web & Mobile App Development Co-Op Diploma' />
+              <CaptionWithDate
+                subCaption='Web & Mobile App Development Co-Op Diploma'
+                date='(Jan. 2022 - present / Canada)'
+              />
               <SubCaption subCaption='Cornerstone International Community College of Canada' />
-              <TextSpan contents='(Jan. 2022 - / Canada)' />
             </div>
             <div className={styles.eachContentsWrapper}>
               <SubTitle subTitle='Awards'></SubTitle>
-              <SubCaption subCaption='Award of NoCode Japan in NoCode Click Hackathon' />
-              <TextSpan contents='(Jun. 2021, Japan)' />
+              <CaptionWithDate
+                subCaption='Award of NoCode Japan in NoCode Click Hackathon'
+                date='(Jun. 2021, Japan)'
+              />
               <SubCaption subCaption=' Got a pleasant award of making an internet forum app, the app content rating, and writing comment functions for food delivery drivers from scratch. They can share their favorite places to wait until they got orders.'></SubCaption>
             </div>
           </div>
