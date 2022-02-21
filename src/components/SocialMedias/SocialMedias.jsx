@@ -1,4 +1,3 @@
-import React from 'react';
 import { SocialMediaData } from './SocialMediaData';
 import styles from './SocialMedias.module.css';
 
