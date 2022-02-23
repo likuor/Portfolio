@@ -7,7 +7,7 @@ const EveryWorks = () => {
       {WorksData.map((val, index) => {
         return (
           <div className={styles.eachWorksWrapper} key={index}>
-            <li>
+            <li className={styles.liWrapper}>
               <a href={val.link} rel='noopener noreferrer' target='_blank'>
                 <div className={styles.imgWrapper}>
                   <img src={val.img} alt={val.alt} />
