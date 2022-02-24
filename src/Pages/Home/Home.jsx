@@ -3,9 +3,11 @@ import Caption from '../../components/Texts/Caption';
 import styles from '../Layout.module.css';
 
 const Home = (props) => {
+  const { sectionWrapper, contentsWrapper } = styles;
+
   return (
-    <section id={props.id} className={styles.sectionWrapper}>
-      <div className={styles.contentsWrapper}>
+    <section id={props.id} className={sectionWrapper}>
+      <div className={contentsWrapper}>
         <Title title='Hi' />
         <Title title="I'm Koki," />
         <Title title='a web developer' />

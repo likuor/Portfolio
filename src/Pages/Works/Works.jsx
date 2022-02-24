@@ -4,12 +4,14 @@ import EveryWorks from './EveryWorks';
 import styles from './Works.module.css';
 
 const Works = (props) => {
+  const { sectionWrapper, contentsWrapper, worksWrapper } = styles;
+
   return (
-    <section id={props.id} className={styles.sectionWrapper}>
-      <div className={styles.contentsWrapper}>
+    <section id={props.id} className={sectionWrapper}>
+      <div className={contentsWrapper}>
         <Title title='Works' />
         <Caption caption="&lt;p&gt; Here's my works &lt;/p&gt;" />
-        <div className={styles.worksWrapper}>
+        <div className={worksWrapper}>
           <EveryWorks />
         </div>
       </div>
