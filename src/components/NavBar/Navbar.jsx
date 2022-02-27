@@ -33,7 +33,7 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 {val.title}
-              </NavLink>{' '}
+              </NavLink>
             </li>
           );
         })}
