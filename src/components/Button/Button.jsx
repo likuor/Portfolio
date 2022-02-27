@@ -1,15 +1,13 @@
 import buttonStyles from './Button.module.css';
 
 const Caption = (props) => {
+  const { url, message } = props;
+  const { btn, contentsBtn } = buttonStyles;
+
   return (
-    <div className={buttonStyles.contentsBtn}>
-      <a
-        href={props.url}
-        target='_blank'
-        rel='noopener noreferrer'
-        className={buttonStyles.btn}
-      >
-        {props.message}
+    <div className={contentsBtn}>
+      <a href={url} target='_blank' rel='noopener noreferrer' className={btn}>
+        {message}
       </a>
     </div>
   );

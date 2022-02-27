@@ -2,18 +2,26 @@ import { SocialMediaData } from './SocialMediaData';
 import styles from './SocialMedias.module.css';
 
 const SocialMedias = () => {
+  const {
+    displayTableContents,
+    socilalMediasWrapper,
+    displayTable,
+    eachIcon,
+    faIcons,
+  } = styles;
+
   return (
-    <div className={styles.socilalMediasWrapper}>
-      <div className={styles.displayTableContents}>
-        <ul className={styles.displayTable}>
+    <div className={socilalMediasWrapper}>
+      <div className={displayTableContents}>
+        <ul className={displayTable}>
           {SocialMediaData.map((val, index) => {
             return (
-              <li key={index} className={styles.eachIcon}>
+              <li key={index} className={eachIcon}>
                 <a
                   href={val.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className={styles.faIcons}
+                  className={faIcons}
                 >
                   {val.icon}
                 </a>

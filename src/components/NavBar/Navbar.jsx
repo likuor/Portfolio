@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import './Navbar.css';
 import * as FaIcons from 'react-icons/fa';
 import { NavbarData } from './NavbarData';
+import { Link as Scroll } from 'react-scroll';
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -11,9 +11,9 @@ function Navbar() {
 
   return (
     <nav className='nav-wrapper'>
-      <Link to='/' className='navbar-logo'>
+      <Scroll to='/' className='navbar-logo' smooth={true}>
         Koki Sakai
-      </Link>
+      </Scroll>
 
       <div className='menu-icon' onClick={handleClick}>
         {click ? (
@@ -26,14 +26,16 @@ function Navbar() {
         {NavbarData.map((val, index) => {
           return (
             <li key={index} className='nav-item'>
-              <NavLink
+              <Scroll
                 to={val.link}
+                smooth={true}
                 className='nav-links'
                 activeclassname='active'
                 onClick={closeMobileMenu}
+                duration={600}
               >
                 {val.title}
-              </NavLink>{' '}
+              </Scroll>
             </li>
           );
         })}

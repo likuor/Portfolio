@@ -2,10 +2,12 @@ import styles from './SubCaption.module.css';
 import TextSpan from './TextSpan';
 
 const CaptionWithDate = (props) => {
+  const { date, subCaption } = props;
+
   return (
     <p className={styles.subCaption}>
-      {props.subCaption}
-      <TextSpan contents={props.date} />
+      {subCaption}
+      <TextSpan contents={date} />
     </p>
   );
 };
