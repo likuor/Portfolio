@@ -1,14 +1,15 @@
 .contentsBtn {
-  margin-top: 2vw;
+  margin-top: 2.5vw;
 }
 
 .btn {
-  font-size: 16px;
+  font-size: 1vw;
   border-radius: 4px;
-  padding: 16px 64px;
+  padding: 0.9vw 3vw;
   text-decoration: none;
   background: #fff;
   color: #2a929b;
+  transition: all 0.2s ease-out;
 }
 
 .btn:hover {
@@ -20,9 +21,6 @@
 @media screen and (max-width: 960px) {
   .btn {
     font-size: 3.5vw;
-    border-radius: 4px;
     padding: 2vw 8vw;
-    text-decoration: none;
-    height: 5vw;
   }
 }
