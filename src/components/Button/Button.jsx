@@ -1,6 +1,6 @@
 import buttonStyles from './Button.module.css';
 
-const Caption = (props) => {
+const Button = (props) => {
   const { url, message } = props;
   const { btn, contentsBtn } = buttonStyles;
 
@@ -13,4 +13,4 @@ const Caption = (props) => {
   );
 };
 
-export default Caption;
+export default Button;
