@@ -31,7 +31,7 @@ const About = (props) => {
             <div className={btnWrapper}>
               <Button
                 message='Resume'
-                url='https://drive.google.com/file/d/1xoy35zCP6fVfVwsUAzQrL3SGAiXtQ2LS/view?usp=sharing'
+                href='https://drive.google.com/file/d/1xoy35zCP6fVfVwsUAzQrL3SGAiXtQ2LS/view?usp=sharing'
               />
             </div>
           </div>
