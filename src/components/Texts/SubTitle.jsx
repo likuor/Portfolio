@@ -1,7 +1,7 @@
 import styles from './subTitle.module.css';
 
-const SubTitle = (props) => {
-  return <h1 className={styles.subTitle}>{props.subTitle}</h1>;
+const SubTitle = ({ subTitle }) => {
+  return <h1 className={styles.subTitle}>{subTitle}</h1>;
 };
 
 export default SubTitle;

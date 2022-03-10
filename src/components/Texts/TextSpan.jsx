@@ -1,7 +1,7 @@
 import styles from './TextSpan.module.css';
 
-const TextSpan = (props) => {
-  return <span className={styles.textSpan}>{props.contents}</span>;
+const TextSpan = ({ contents }) => {
+  return <span className={styles.textSpan}>{contents}</span>;
 };
 
 export default TextSpan;

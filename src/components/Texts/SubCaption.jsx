@@ -1,7 +1,7 @@
 import styles from './SubCaption.module.css';
 
-const SubCaption = (props) => {
-  return <p className={styles.subCaption}>{props.subCaption}</p>;
+const SubCaption = ({ subCaption }) => {
+  return <p className={styles.subCaption}>{subCaption}</p>;
 };
 
 export default SubCaption;

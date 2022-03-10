@@ -1,7 +1,6 @@
 import buttonStyles from './Button.module.css';
 
-const Button = (props) => {
-  const { href, message } = props;
+const Button = ({ href, message }) => {
   const { btn, contentsBtn } = buttonStyles;
 
   return (
