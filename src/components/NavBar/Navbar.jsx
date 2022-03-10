@@ -27,10 +27,11 @@ function Navbar() {
           return (
             <li key={index} className='nav-item'>
               <Scroll
+                activeclassname='active'
                 to={val.link}
+                spy={true}
                 smooth={true}
                 className='nav-links'
-                activeclassname='active'
                 onClick={closeMobileMenu}
                 duration={600}
               >
