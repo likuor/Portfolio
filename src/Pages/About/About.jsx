@@ -1,7 +1,6 @@
 import ProfileImg from './Img/ProfileImg.jpg';
 import SkillIcons from '../../components/SkillIcons/SkillIcons';
 import Typing from '../../components/Typing/Typing.jsx';
-import SubTitle from '../../components/Texts/SubTitle';
 import SubCaption from '../../components/Texts/SubCaption';
 import CaptionWithDate from '../../components/Texts/CaptionWithDate';
 import Button from '../../components/Button/Button';
@@ -23,7 +22,7 @@ const About = (props) => {
       <div className={sectionWrapper}>
         <div className={contentsWrapper}>
           <div className={eachContentsWrapper}>
-            <SubTitle subTitle={<Typing />} />
+            <h1 className={styles.subTitle}>{<Typing />}</h1>
             <SubCaption subCaption="I'm Koki Sakai, a Japanese Front-end developer, currently living in Vancouver, Canada." />
             <div className={imgContainer}>
               <img src={ProfileImg} alt='ProfileImage' className={imgSize} />
@@ -37,12 +36,12 @@ const About = (props) => {
           </div>
           <div className={eachContentsWrapper}>
             <div className={eachContentsWrapper}>
-              <SubTitle subTitle='Skills' />
+              <h1 className={styles.subTitle}>Skills</h1>
               <SubCaption subCaption='Mainly work with React.js for front-end in these days but I do work with also Laravel as back-end too' />
               <SkillIcons />
             </div>
             <div className={eachContentsWrapper}>
-              <SubTitle subTitle='Education' />
+              <h1 className={styles.subTitle}>Education</h1>
               <CaptionWithDate
                 subCaption='Web & Mobile App Development Co-Op Diploma'
                 date='(Jan. 2022 - present, Canada)'
@@ -50,7 +49,7 @@ const About = (props) => {
               <SubCaption subCaption='Cornerstone International Community College of Canada' />
             </div>
             <div className={eachContentsWrapper}>
-              <SubTitle subTitle='Awards' />
+              <h1 className={styles.subTitle}>Awards</h1>
               <a
                 className={linkColor}
                 href='https://nocodejapan.org/media/click-hackathon-result-01/#NoCode_Japan_shangRestarea_jiu_jing_huang_guisan'
