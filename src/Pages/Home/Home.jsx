@@ -1,5 +1,3 @@
-import Title from '../../components/Texts/Title';
-import Caption from '../../components/Texts/Caption';
 import styles from '../Layout.module.css';
 
 const Home = (props) => {
@@ -8,10 +6,12 @@ const Home = (props) => {
   return (
     <section id={props.id} className={sectionWrapper}>
       <div className={contentsWrapper}>
-        <Title title='Hi' />
-        <Title title="I'm Koki," />
-        <Title title='a web developer' />
-        <Caption caption='&lt;p&gt; Front-end developer &lt;/p&gt;' />
+        <h1 className={styles.title}>Hi</h1>
+        <h1 className={styles.title}>I'm Koki,</h1>
+        <h1 className={styles.title}>web developer</h1>
+        <p className={styles.caption}>
+          &lt;p&gt; Front-end developer &lt;/p&gt;
+        </p>
       </div>
     </section>
   );

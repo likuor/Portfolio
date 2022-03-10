@@ -1,5 +1,3 @@
-import Title from '../../components/Texts/Title';
-import Caption from '../../components/Texts/Caption';
 import styles from '../Layout.module.css';
 
 const NoMatch = () => {
@@ -8,9 +6,9 @@ const NoMatch = () => {
   return (
     <section className={sectionWrapper}>
       <div className={contentsWrapper}>
-        <Title title='404' />
-        <Title title='Page not found' />
-        <Caption caption='&lt;p&gt; Oops... &lt;/p&gt;' />
+        <h1 className={styles.title}>404</h1>
+        <h1 className={styles.title}>Page not found</h1>
+        <p className={styles.caption}>&lt;p&gt; Oops... &lt;/p&gt;</p>
       </div>
     </section>
   );

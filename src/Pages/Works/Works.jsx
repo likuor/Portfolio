@@ -1,5 +1,3 @@
-import Title from '../../components/Texts/Title';
-import Caption from '../../components/Texts/Caption';
 import EveryWorks from './EveryWorks';
 import styles from './Works.module.css';
 
@@ -9,8 +7,8 @@ const Works = (props) => {
   return (
     <section id={props.id} className={sectionWrapper}>
       <div className={contentsWrapper}>
-        <Title title='Works' />
-        <Caption caption="&lt;p&gt; Here's my works &lt;/p&gt;" />
+        <h1 className={styles.title}>Works</h1>
+        <p className={styles.caption}>&lt;p&gt; Here's my works &lt;/p&gt;</p>
         <div className={worksWrapper}>
           <EveryWorks />
         </div>

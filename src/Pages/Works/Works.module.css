@@ -13,6 +13,17 @@
   display: flex;
 }
 
+.title {
+  font-size: 4vw;
+  color: #fff;
+}
+
+.caption {
+  font-size: 2.5vw;
+  font-weight: lighter;
+  color: #fff;
+}
+
 @media screen and (max-width: 960px) {
   .sectionWrapper {
     height: auto;
@@ -20,5 +31,13 @@
 
   .worksWrapper ul {
     flex-direction: column;
+  }
+
+  .title {
+    font-size: 10vw;
+  }
+
+  .caption {
+    font-size: 4.5vw;
   }
 }

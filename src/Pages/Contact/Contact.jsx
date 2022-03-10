@@ -1,5 +1,3 @@
-import Title from '../../components/Texts/Title';
-import Caption from '../../components/Texts/Caption';
 import Button from '../../components/Button/Button';
 import styles from './Contact.module.css';
 import Map from '../../components/Map/Map';
@@ -11,8 +9,10 @@ const Contact = (props) => {
     <section id={props.id} className={sectionWrapper}>
       <div className={contentsWrapper}>
         <div className={eachContentsWrapper}>
-          <Title title='Get in touch' />
-          <Caption caption="&lt;p&gt; Don't hesitate to DM! &lt;/p&gt;" />
+          <h1 className={styles.title}>Get in touch</h1>
+          <p className={styles.caption}>
+            &lt;p&gt; Don't hesitate to DM! &lt;/p&gt;
+          </p>
           <Button message='Contact' href='mailto:soloexkokisakai@gmail.com' />
         </div>
         <div className={eachContentsWrapper}>
