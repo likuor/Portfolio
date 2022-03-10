@@ -20,7 +20,7 @@ const Map = () => {
 
   return (
     <LoadScript googleMapsApiKey={API_KEY}>
-      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={14}>
+      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={11}>
         <Marker position={positionCanada} />
       </GoogleMap>
     </LoadScript>

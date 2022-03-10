@@ -13,7 +13,7 @@ const Contact = (props) => {
         <div className={eachContentsWrapper}>
           <Title title='Get in touch' />
           <Caption caption="&lt;p&gt; Don't hesitate to DM! &lt;/p&gt;" />
-          <Button message='Welcome' url='https://twitter.com/le_pereza' />
+          <Button message='Contact' href='mailto:soloexkokisakai@gmail.com' />
         </div>
         <div className={eachContentsWrapper}>
           <Map />
